@@ -10,10 +10,3 @@ root.render(
   </React.StrictMode>
 );
 
-/**
- * Navbar
- * Hero
- * News Section
- * Athletes Intro
- * Footer
- */
