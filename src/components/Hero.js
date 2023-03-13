@@ -1,7 +1,5 @@
 export default function Hero() {
     return (
-
-        
         <>
             <div className="bg-gray-100 pb-12 overflow-y-hidden" style={{ minHeight: 700 }}>
                 <dh-component>
