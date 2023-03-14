@@ -32,8 +32,8 @@ export default function Navbar() {
 
     if (backdrop.length) {
         for (var i = 0; i < backdrop.length; i++) {
-            backdrop[i].addEventListener('click', function() {
-                for(var j = 0;j < menu.length;j++){
+            backdrop[i].addEventListener('click', function () {
+                for (var j = 0; j < menu.length; j++) {
                     menu[j].classList.toggle('hidden');
                 }
             });
@@ -42,7 +42,7 @@ export default function Navbar() {
 
     return (
         <>
-            <body className="bg-blue-500">
+            <body className="bg-blue-500 sticky">
                 <nav className="relative px-4 py-4 flex justify-between items-center bg-white">
                     <a href="#" className="text-3xl font-bold leading-none">
                         <svg class="h-10" alt="logo" viewBox="0 0 10240 10240">
