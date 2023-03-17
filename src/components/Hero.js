@@ -1,30 +1,39 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 export default function Hero() {
     return (
         <>
-            <div className="bg-gray-100  overflow-y-hidden" style={{ minHeight: 300 }}>
-                <dh-component>
-                    <div className="bg-gray-50">
-                        <div className="container mx-auto flex flex-col items-center py-12 sm:py-24">
-                            <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col mb-5 sm:mb-10">
-                                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10 ">
-                                    GeeksforGeeks Job Fair 2023
-                                    <span className="text-indigo-700"> Your Next Career Move Starts Here! </span>
-                                    
-                                </h1>
-                                <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-400 font-normal text-center text-sm sm:text-lg">
-                                    Connecting Talent with Opportunities Since 2020:
-                                    2500+ Companies | 10,000+ Jobs Offered | 20 LPA Avg Salary
-                                </p>
-                            </div>
-                            <div className="flex justify-center items-center">
-                                <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:font-bold rounded text-white px-4 sm:px-10 border border-indigo-700 py-2 sm:py-4 text-sm">Get a Job</button>
-                                <button className="ml-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-transparent transition duration-150 ease-in-out hover:border-indigo-600 lg:text-xl lg:font-bold  hover:text-indigo-600 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-10 py-2 sm:py-4 text-sm">Hire with us.</button>
-                            </div>
+            <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+                <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+                    <div class="mx-auto max-w-xl text-center sm:text-left">
+                        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                        </h2>
+
+                        <p class="hidden text-gray-500 md:mt-4 md:block">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
+                            tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et
+                            fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt
+                            duis.
+                        </p>
+
+                        <div class="mt-4 md:mt-8">
+                            <a
+                                href="#"
+                                class="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                            >
+                                Get Started Today
+                            </a>
                         </div>
                     </div>
-                </dh-component>
-            </div>
+                </div>
+
+                <img
+                    alt="Student"
+                    src="https://images.unsplash.com/photo-1464582883107-8adf2dca8a9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                    class="h-56 w-full object-cover sm:h-full"
+                />
+            </section>
         </>
     )
-    
+
 }
